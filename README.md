@@ -13,7 +13,11 @@ Hands-on browser automation examples using Python and Selenium WebDriver.
 ### Lab 2 — WebDriver and Core Interactions
 - `lab-02-core-interactions/lab2_interactions.py`: automate a demo login, dropdowns, checkboxes, JavaScript alerts, dynamic content, and screenshots.
 
-## Setup
+### Lab 3 — Case Study and Local CI
+- [Lab 3 README](lab-03-case-study-local-ci/README.md): setup, commands, scenarios, reporting, troubleshooting, and cleanup.
+- [Lab 3 Deep Dive](lab-03-case-study-local-ci/DEEP-DIVE.md): architecture, failure analysis, experiments, best practices, and interview questions.
+
+## Existing Labs Setup
 
 Requires Python 3.10+, Chrome or Chromium, and network access.
 
@@ -23,11 +27,9 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-On Windows, activate the environment with `.venv\\Scripts\\activate`.
+On Windows, activate with `.venv\\Scripts\\activate`. Selenium Manager, included with Selenium, manages the compatible browser driver.
 
-Selenium Manager, included with Selenium, manages the compatible browser driver.
-
-## Run
+## Run Existing Labs
 
 ```bash
 python lab-01-introduction/lab1_intro_selenium.py
@@ -37,4 +39,4 @@ python lab-01-introduction/troubleshooting_guide.py
 python lab-02-core-interactions/lab2_interactions.py
 ```
 
-The scripts use public demo pages and are intended for learning. Screenshots are written to the current working directory.
+The scripts use public demo pages and are intended for learning. Screenshots are written to the current working directory. Lab 3 has a separate dependency file so its test tooling does not silently change the existing labs' environment.

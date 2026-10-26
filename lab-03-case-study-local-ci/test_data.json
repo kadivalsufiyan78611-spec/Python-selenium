@@ -1,0 +1,22 @@
+{
+  "valid_credentials": {
+    "username": "tomsmith",
+    "password": "SuperSecretPassword!"
+  },
+  "invalid_credentials": [
+    {
+      "username": "invaliduser",
+      "password": "wrongpassword",
+      "expected_error": "Your username is invalid!"
+    },
+    {
+      "username": "tomsmith",
+      "password": "wrongpassword",
+      "expected_error": "Your password is invalid!"
+    }
+  ],
+  "test_urls": {
+    "login_page": "https://the-internet.herokuapp.com/login",
+    "secure_area": "https://the-internet.herokuapp.com/secure"
+  }
+}
