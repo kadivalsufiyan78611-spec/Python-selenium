@@ -17,6 +17,10 @@ Hands-on browser automation examples using Python and Selenium WebDriver.
 - [Lab 3 README](lab-03-case-study-local-ci/README.md): setup, commands, scenarios, reporting, troubleshooting, and cleanup.
 - [Lab 3 Deep Dive](lab-03-case-study-local-ci/DEEP-DIVE.md): architecture, failure analysis, experiments, best practices, and interview questions.
 
+### Lab 4 — Web Element Identification
+- [Lab 4 README](lab-04-web-element-identification/README.md): ID, NAME, and TAG_NAME locators, JavaScript highlighting, screenshots, and verification.
+- [Lab 4 Deep Dive](lab-04-web-element-identification/DEEP-DIVE.md): locator behavior, explicit waits, failure analysis, experiments, and interview questions.
+
 ## Existing Labs Setup
 
 Requires Python 3.10+, Chrome or Chromium, and network access.
