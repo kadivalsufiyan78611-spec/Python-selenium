@@ -21,6 +21,10 @@ Hands-on browser automation examples using Python and Selenium WebDriver.
 - [Lab 4 README](lab-04-web-element-identification/README.md): ID, NAME, and TAG_NAME locators, JavaScript highlighting, screenshots, and verification.
 - [Lab 4 Deep Dive](lab-04-web-element-identification/DEEP-DIVE.md): locator behavior, explicit waits, failure analysis, experiments, and interview questions.
 
+### Lab 5 — Advanced Locator Strategies
+- [Lab 5 README](lab-05-advanced-locators/README.md): XPath, CSS Selector, Class Name, Link Text, Partial Link Text, headless execution, logs, and screenshots.
+- [Lab 5 Deep Dive](lab-05-advanced-locators/DEEP-DIVE.md): locator concepts, explicit waits, diagnostics, failure analysis, experiments, and interview questions.
+
 ## Existing Labs Setup
 
 Requires Python 3.10+, Chrome or Chromium, and network access.
