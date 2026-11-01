@@ -33,6 +33,15 @@ Hands-on browser automation examples using Python and Selenium WebDriver.
 - [Lab 7 README](lab-07-multiple-web-elements/README.md): checkbox collections, link extraction, URL classification, CSV output, and troubleshooting.
 - [Lab 7 Deep Dive](lab-07-multiple-web-elements/DEEP-DIVE.md): plural element lookup, stale references, structured extraction, experiments, and interview questions.
 
+
+### Lab 8 — Traditional Methods for Locating Web Elements
+- [Lab 8 README](lab-08-traditional-web-locators/README.md): XPath table extraction, CLASS_NAME and LINK_TEXT locators, CSS/XPath timing comparison, JSON outputs, and troubleshooting.
+- [Lab 8 Deep Dive](lab-08-traditional-web-locators/DEEP-DIVE.md): locator fundamentals, benchmark interpretation, failure analysis, experiments, and interview questions.
+
+### Lab 9 — AI-Powered Element Locators
+- [Lab 9 README](lab-09-ai-powered-element-locators/README.md): SeleniumBase AI locators, traditional comparison, search extraction, API-key setup, and troubleshooting.
+- [Lab 9 Deep Dive](lab-09-ai-powered-element-locators/DEEP-DIVE.md): AI versus conventional selectors, comparison design, security, failure analysis, and interview questions.
+
 ## Existing Labs Setup
 
 Requires Python 3.10+, Chrome or Chromium, and network access.
