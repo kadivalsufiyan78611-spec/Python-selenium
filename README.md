@@ -66,6 +66,11 @@ Hands-on browser automation examples using Python and Selenium WebDriver.
 - [Lab 14 Deep Dive](lab-14-advanced-user-interactions/DEEP-DIVE.md)
 - Main script: `lab-14-advanced-user-interactions/lab14_user_interactions.py`
 
+### Lab 15 — Key Methods in ActionChains
+- [Lab 15 README](lab-15-actionchain-methods/README.md)
+- [Lab 15 Deep Dive](lab-15-actionchain-methods/DEEP-DIVE.md)
+- Main script: `lab-15-actionchain-methods/lab15_actionchains.py`
+
 ## Environment
 
 Requires Python 3.10+, Chrome or Chromium, and network access. Each lab has its own requirements file so dependencies remain isolated.
