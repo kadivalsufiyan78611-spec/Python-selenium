@@ -18,50 +18,71 @@ Hands-on browser automation examples using Python and Selenium WebDriver.
 - [Lab 3 Deep Dive](lab-03-case-study-local-ci/DEEP-DIVE.md): architecture, failure analysis, experiments, best practices, and interview questions.
 
 ### Lab 4 — Web Element Identification
-- [Lab 4 README](lab-04-web-element-identification/README.md): ID, NAME, and TAG_NAME locators, JavaScript highlighting, screenshots, and verification.
-- [Lab 4 Deep Dive](lab-04-web-element-identification/DEEP-DIVE.md): locator behavior, explicit waits, failure analysis, experiments, and interview questions.
+- [Lab 4 README](lab-04-web-element-identification/README.md)
+- [Lab 4 Deep Dive](lab-04-web-element-identification/DEEP-DIVE.md)
 
 ### Lab 5 — Advanced Locator Strategies
-- [Lab 5 README](lab-05-advanced-locators/README.md): XPath, CSS Selector, Class Name, Link Text, Partial Link Text, headless execution, logs, and screenshots.
-- [Lab 5 Deep Dive](lab-05-advanced-locators/DEEP-DIVE.md): locator concepts, explicit waits, diagnostics, failure analysis, experiments, and interview questions.
+- [Lab 5 README](lab-05-advanced-locators/README.md)
+- [Lab 5 Deep Dive](lab-05-advanced-locators/DEEP-DIVE.md)
 
 ### Lab 6 — Handling Element Identification Challenges
-- [Lab 6 README](lab-06-element-identification-challenges/README.md): dynamic loading, file upload, JavaScript interaction, logging, screenshots, and reports.
-- [Lab 6 Deep Dive](lab-06-element-identification-challenges/DEEP-DIVE.md): waits, upload mechanics, JavaScript trade-offs, failure analysis, and interview questions.
+- [Lab 6 README](lab-06-element-identification-challenges/README.md)
+- [Lab 6 Deep Dive](lab-06-element-identification-challenges/DEEP-DIVE.md)
 
 ### Lab 7 — Handling Multiple Web Elements
-- [Lab 7 README](lab-07-multiple-web-elements/README.md): checkbox collections, link extraction, URL classification, CSV output, and troubleshooting.
-- [Lab 7 Deep Dive](lab-07-multiple-web-elements/DEEP-DIVE.md): plural element lookup, stale references, structured extraction, experiments, and interview questions.
-
+- [Lab 7 README](lab-07-multiple-web-elements/README.md)
+- [Lab 7 Deep Dive](lab-07-multiple-web-elements/DEEP-DIVE.md)
 
 ### Lab 8 — Traditional Methods for Locating Web Elements
-- [Lab 8 README](lab-08-traditional-web-locators/README.md): XPath table extraction, CLASS_NAME and LINK_TEXT locators, CSS/XPath timing comparison, JSON outputs, and troubleshooting.
-- [Lab 8 Deep Dive](lab-08-traditional-web-locators/DEEP-DIVE.md): locator fundamentals, benchmark interpretation, failure analysis, experiments, and interview questions.
+- [Lab 8 README](lab-08-traditional-web-locators/README.md)
+- [Lab 8 Deep Dive](lab-08-traditional-web-locators/DEEP-DIVE.md)
 
 ### Lab 9 — AI-Powered Element Locators
-- [Lab 9 README](lab-09-ai-powered-element-locators/README.md): SeleniumBase AI locators, traditional comparison, search extraction, API-key setup, and troubleshooting.
-- [Lab 9 Deep Dive](lab-09-ai-powered-element-locators/DEEP-DIVE.md): AI versus conventional selectors, comparison design, security, failure analysis, and interview questions.
+- [Lab 9 README](lab-09-ai-powered-element-locators/README.md)
+- [Lab 9 Deep Dive](lab-09-ai-powered-element-locators/DEEP-DIVE.md)
 
-## Existing Labs Setup
+### Lab 10 — Dynamic Social Platform Automation
+- [Lab 10 README](lab-10-dynamic-social-platform/README.md)
+- [Lab 10 Deep Dive](lab-10-dynamic-social-platform/DEEP-DIVE.md)
+- Main script: `lab-10-dynamic-social-platform/lab10_social_media.py`
 
-Requires Python 3.10+, Chrome or Chromium, and network access.
+### Lab 11 — Selenium 4 Features and Future Outlook
+- [Lab 11 README](lab-11-selenium4-future-features/README.md)
+- [Lab 11 Deep Dive](lab-11-selenium4-future-features/DEEP-DIVE.md)
+- Main script: `lab-11-selenium4-future-features/lab11_future.py`
+
+### Lab 12 — Synchronization in Selenium
+- [Lab 12 README](lab-12-synchronization/README.md)
+- [Lab 12 Deep Dive](lab-12-synchronization/DEEP-DIVE.md)
+- Main script: `lab-12-synchronization/lab12_synchronization.py`
+
+### Lab 13 — Intelligent Synchronization Techniques
+- [Lab 13 README](lab-13-intelligent-synchronization/README.md)
+- [Lab 13 Deep Dive](lab-13-intelligent-synchronization/DEEP-DIVE.md)
+- Main script: `lab-13-intelligent-synchronization/lab13_intelligent_sync.py`
+
+### Lab 14 — Advanced User Interaction Automation
+- [Lab 14 README](lab-14-advanced-user-interactions/README.md)
+- [Lab 14 Deep Dive](lab-14-advanced-user-interactions/DEEP-DIVE.md)
+- Main script: `lab-14-advanced-user-interactions/lab14_user_interactions.py`
+
+## Environment
+
+Requires Python 3.10+, Chrome or Chromium, and network access. Each lab has its own requirements file so dependencies remain isolated.
+
+Example setup:
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-python -m pip install -r requirements.txt
+python -m pip install -r lab-12-synchronization/requirements.txt
+python lab-12-synchronization/lab12_synchronization.py
 ```
 
-On Windows, activate with `.venv\\Scripts\\activate`. Selenium Manager, included with Selenium, manages the compatible browser driver.
+On Windows, activate with `.venv\\Scripts\\activate`.
 
-## Run Existing Labs
+Selenium Manager (included with Selenium 4) manages a compatible browser driver in typical environments. Some restricted cloud environments may require a separately installed ChromeDriver.
 
-```bash
-python lab-01-introduction/lab1_intro_selenium.py
-python lab-01-introduction/element_location_demo.py
-python lab-01-introduction/assertion_tests.py
-python lab-01-introduction/troubleshooting_guide.py
-python lab-02-core-interactions/lab2_interactions.py
-```
+## Verification policy
 
-The scripts use public demo pages and are intended for learning. Screenshots are written to the current working directory. Lab 3 has a separate dependency file so its test tooling does not silently change the existing labs' environment.
+Scripts are structured for reproducible learning, but external demo websites, browser versions, and network conditions can change. A GitHub push does not mean the browser scenarios were executed successfully. Run each script in a configured environment and inspect its logs and generated artifacts.
